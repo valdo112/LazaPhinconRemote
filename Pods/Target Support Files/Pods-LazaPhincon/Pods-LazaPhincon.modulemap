@@ -1,0 +1,6 @@
+framework module Pods_LazaPhincon {
+  umbrella header "Pods-LazaPhincon-umbrella.h"
+
+  export *
+  module * { export * }
+}
