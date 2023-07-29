@@ -7,25 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E947CE8E3FBD515A2CE25F3 /* Pods_LazaPhincon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC052A40A0515594A127452 /* Pods_LazaPhincon.framework */; };
 		819F852F2A70A8CE008FB2F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F852E2A70A8CE008FB2F1 /* AppDelegate.swift */; };
 		819F85312A70A8CE008FB2F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85302A70A8CE008FB2F1 /* SceneDelegate.swift */; };
 		819F85332A70A8CE008FB2F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85322A70A8CE008FB2F1 /* ViewController.swift */; };
 		819F85362A70A8CE008FB2F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819F85342A70A8CE008FB2F1 /* Main.storyboard */; };
-		819F85392A70A8CE008FB2F1 /* LazaPhincon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 819F85372A70A8CE008FB2F1 /* LazaPhincon.xcdatamodeld */; };
 		819F853B2A70A8D0008FB2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819F853A2A70A8D0008FB2F1 /* Assets.xcassets */; };
 		819F853E2A70A8D0008FB2F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819F853C2A70A8D0008FB2F1 /* LaunchScreen.storyboard */; };
+		819F85462A70AC13008FB2F1 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85452A70AC13008FB2F1 /* ExtensionUIView.swift */; };
+		819F85502A70AE22008FB2F1 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F85472A70AE21008FB2F1 /* Inter-Black.ttf */; };
+		819F85512A70AE22008FB2F1 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F85482A70AE21008FB2F1 /* Inter-SemiBold.ttf */; };
+		819F85522A70AE22008FB2F1 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F85492A70AE21008FB2F1 /* Inter-Light.ttf */; };
+		819F85532A70AE22008FB2F1 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F854A2A70AE21008FB2F1 /* Inter-ExtraLight.ttf */; };
+		819F85542A70AE22008FB2F1 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F854B2A70AE21008FB2F1 /* Inter-ExtraBold.ttf */; };
+		819F85552A70AE22008FB2F1 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F854C2A70AE21008FB2F1 /* Inter-Regular.ttf */; };
+		819F85562A70AE22008FB2F1 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F854D2A70AE21008FB2F1 /* Inter-Thin.ttf */; };
+		819F85572A70AE22008FB2F1 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F854E2A70AE21008FB2F1 /* Inter-Medium.ttf */; };
+		819F85582A70AE22008FB2F1 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819F854F2A70AE22008FB2F1 /* Inter-Bold.ttf */; };
+		819F855B2A70B69A008FB2F1 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F855A2A70B69A008FB2F1 /* GetStartedViewController.swift */; };
+		819F855F2A70CEBF008FB2F1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F855E2A70CEBF008FB2F1 /* SignUpViewController.swift */; };
+		819F85682A71105F008FB2F1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85672A71105F008FB2F1 /* SignInViewController.swift */; };
+		819F856A2A7118A7008FB2F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85692A7118A7008FB2F1 /* HomeViewController.swift */; };
+		819F856C2A71198E008FB2F1 /* CategoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 819F856B2A71198E008FB2F1 /* CategoryViewCell.xib */; };
+		819F856E2A7119AF008FB2F1 /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F856D2A7119AF008FB2F1 /* CategoryViewCell.swift */; };
+		819F85712A7124E1008FB2F1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85702A7124E1008FB2F1 /* TabBarController.swift */; };
+		819F85732A72164D008FB2F1 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85722A72164D008FB2F1 /* Network.swift */; };
+		819F85762A7218DD008FB2F1 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85752A7218DD008FB2F1 /* ProductsModel.swift */; };
+		819F85782A724D8D008FB2F1 /* ProductsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 819F85772A724D8D008FB2F1 /* ProductsViewCell.xib */; };
+		819F857A2A724F31008FB2F1 /* ProductsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85792A724F31008FB2F1 /* ProductsViewCell.swift */; };
+		819F85A62A755D67008FB2F1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85A52A755D67008FB2F1 /* ProfileViewController.swift */; };
+		819F85A82A756230008FB2F1 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85A72A756230008FB2F1 /* NewPasswordViewController.swift */; };
+		819F85AA2A756B02008FB2F1 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85A92A756B02008FB2F1 /* OrderViewController.swift */; };
+		819F85AC2A756B0D008FB2F1 /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F85AB2A756B0D008FB2F1 /* WishlistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0337D27AD2CFE0A4D8EBA48B /* Pods-LazaPhincon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazaPhincon.release.xcconfig"; path = "Target Support Files/Pods-LazaPhincon/Pods-LazaPhincon.release.xcconfig"; sourceTree = "<group>"; };
 		819F852B2A70A8CE008FB2F1 /* LazaPhincon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazaPhincon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819F852E2A70A8CE008FB2F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		819F85302A70A8CE008FB2F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		819F85322A70A8CE008FB2F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		819F85352A70A8CE008FB2F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		819F85382A70A8CE008FB2F1 /* LazaPhincon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LazaPhincon.xcdatamodel; sourceTree = "<group>"; };
 		819F853A2A70A8D0008FB2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819F853D2A70A8D0008FB2F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		819F853F2A70A8D0008FB2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819F85452A70AC13008FB2F1 /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		819F85472A70AE21008FB2F1 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		819F85482A70AE21008FB2F1 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		819F85492A70AE21008FB2F1 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		819F854A2A70AE21008FB2F1 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		819F854B2A70AE21008FB2F1 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		819F854C2A70AE21008FB2F1 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		819F854D2A70AE21008FB2F1 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		819F854E2A70AE21008FB2F1 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		819F854F2A70AE22008FB2F1 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		819F855A2A70B69A008FB2F1 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		819F855E2A70CEBF008FB2F1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		819F85672A71105F008FB2F1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		819F85692A7118A7008FB2F1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		819F856B2A71198E008FB2F1 /* CategoryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewCell.xib; sourceTree = "<group>"; };
+		819F856D2A7119AF008FB2F1 /* CategoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
+		819F85702A7124E1008FB2F1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		819F85722A72164D008FB2F1 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		819F85752A7218DD008FB2F1 /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		819F85772A724D8D008FB2F1 /* ProductsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsViewCell.xib; sourceTree = "<group>"; };
+		819F85792A724F31008FB2F1 /* ProductsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewCell.swift; sourceTree = "<group>"; };
+		819F85A52A755D67008FB2F1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		819F85A72A756230008FB2F1 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		819F85A92A756B02008FB2F1 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		819F85AB2A756B0D008FB2F1 /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
+		CFC4978CC0EB099380452CE3 /* Pods-LazaPhincon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazaPhincon.debug.xcconfig"; path = "Target Support Files/Pods-LazaPhincon/Pods-LazaPhincon.debug.xcconfig"; sourceTree = "<group>"; };
+		DFC052A40A0515594A127452 /* Pods_LazaPhincon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazaPhincon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +85,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E947CE8E3FBD515A2CE25F3 /* Pods_LazaPhincon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23F22320977592A7AF7FEC5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFC4978CC0EB099380452CE3 /* Pods-LazaPhincon.debug.xcconfig */,
+				0337D27AD2CFE0A4D8EBA48B /* Pods-LazaPhincon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		648F7A3D6DD549486E764EBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFC052A40A0515594A127452 /* Pods_LazaPhincon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		819F85222A70A8CE008FB2F1 = {
 			isa = PBXGroup;
 			children = (
 				819F852D2A70A8CE008FB2F1 /* LazaPhincon */,
 				819F852C2A70A8CE008FB2F1 /* Products */,
+				23F22320977592A7AF7FEC5F /* Pods */,
+				648F7A3D6DD549486E764EBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +130,88 @@
 		819F852D2A70A8CE008FB2F1 /* LazaPhincon */ = {
 			isa = PBXGroup;
 			children = (
-				819F852E2A70A8CE008FB2F1 /* AppDelegate.swift */,
-				819F85302A70A8CE008FB2F1 /* SceneDelegate.swift */,
-				819F85322A70A8CE008FB2F1 /* ViewController.swift */,
-				819F85342A70A8CE008FB2F1 /* Main.storyboard */,
-				819F853A2A70A8D0008FB2F1 /* Assets.xcassets */,
+				819F85742A7218CB008FB2F1 /* Model */,
+				819F855C2A70CE29008FB2F1 /* Supporting */,
+				819F856F2A7119B8008FB2F1 /* Controllers */,
+				819F857B2A724F3E008FB2F1 /* Views */,
 				819F853C2A70A8D0008FB2F1 /* LaunchScreen.storyboard */,
 				819F853F2A70A8D0008FB2F1 /* Info.plist */,
-				819F85372A70A8CE008FB2F1 /* LazaPhincon.xcdatamodeld */,
+				819F855D2A70CE53008FB2F1 /* Fonts */,
 			);
 			path = LazaPhincon;
+			sourceTree = "<group>";
+		};
+		819F85592A70AE2F008FB2F1 /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				819F85472A70AE21008FB2F1 /* Inter-Black.ttf */,
+				819F854F2A70AE22008FB2F1 /* Inter-Bold.ttf */,
+				819F854B2A70AE21008FB2F1 /* Inter-ExtraBold.ttf */,
+				819F854A2A70AE21008FB2F1 /* Inter-ExtraLight.ttf */,
+				819F85492A70AE21008FB2F1 /* Inter-Light.ttf */,
+				819F854E2A70AE21008FB2F1 /* Inter-Medium.ttf */,
+				819F854C2A70AE21008FB2F1 /* Inter-Regular.ttf */,
+				819F85482A70AE21008FB2F1 /* Inter-SemiBold.ttf */,
+				819F854D2A70AE21008FB2F1 /* Inter-Thin.ttf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+		819F855C2A70CE29008FB2F1 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				819F853A2A70A8D0008FB2F1 /* Assets.xcassets */,
+				819F85452A70AC13008FB2F1 /* ExtensionUIView.swift */,
+				819F852E2A70A8CE008FB2F1 /* AppDelegate.swift */,
+				819F85302A70A8CE008FB2F1 /* SceneDelegate.swift */,
+				819F85722A72164D008FB2F1 /* Network.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		819F855D2A70CE53008FB2F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				819F85592A70AE2F008FB2F1 /* Inter */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		819F856F2A7119B8008FB2F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				819F856D2A7119AF008FB2F1 /* CategoryViewCell.swift */,
+				819F855A2A70B69A008FB2F1 /* GetStartedViewController.swift */,
+				819F85692A7118A7008FB2F1 /* HomeViewController.swift */,
+				819F85672A71105F008FB2F1 /* SignInViewController.swift */,
+				819F855E2A70CEBF008FB2F1 /* SignUpViewController.swift */,
+				819F85322A70A8CE008FB2F1 /* ViewController.swift */,
+				819F85702A7124E1008FB2F1 /* TabBarController.swift */,
+				819F85792A724F31008FB2F1 /* ProductsViewCell.swift */,
+				819F85A52A755D67008FB2F1 /* ProfileViewController.swift */,
+				819F85A72A756230008FB2F1 /* NewPasswordViewController.swift */,
+				819F85A92A756B02008FB2F1 /* OrderViewController.swift */,
+				819F85AB2A756B0D008FB2F1 /* WishlistViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		819F85742A7218CB008FB2F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				819F85752A7218DD008FB2F1 /* ProductsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		819F857B2A724F3E008FB2F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				819F85342A70A8CE008FB2F1 /* Main.storyboard */,
+				819F85772A724D8D008FB2F1 /* ProductsViewCell.xib */,
+				819F856B2A71198E008FB2F1 /* CategoryViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 819F85422A70A8D0008FB2F1 /* Build configuration list for PBXNativeTarget "LazaPhincon" */;
 			buildPhases = (
+				976428617FD427A47A7AC198 /* [CP] Check Pods Manifest.lock */,
 				819F85272A70A8CE008FB2F1 /* Sources */,
 				819F85282A70A8CE008FB2F1 /* Frameworks */,
 				819F85292A70A8CE008FB2F1 /* Resources */,
+				DADE0C0D01526C720F0B8551 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,22 +275,88 @@
 			buildActionMask = 2147483647;
 			files = (
 				819F853E2A70A8D0008FB2F1 /* LaunchScreen.storyboard in Resources */,
+				819F85552A70AE22008FB2F1 /* Inter-Regular.ttf in Resources */,
 				819F853B2A70A8D0008FB2F1 /* Assets.xcassets in Resources */,
 				819F85362A70A8CE008FB2F1 /* Main.storyboard in Resources */,
+				819F85542A70AE22008FB2F1 /* Inter-ExtraBold.ttf in Resources */,
+				819F85532A70AE22008FB2F1 /* Inter-ExtraLight.ttf in Resources */,
+				819F85782A724D8D008FB2F1 /* ProductsViewCell.xib in Resources */,
+				819F85582A70AE22008FB2F1 /* Inter-Bold.ttf in Resources */,
+				819F85512A70AE22008FB2F1 /* Inter-SemiBold.ttf in Resources */,
+				819F856C2A71198E008FB2F1 /* CategoryViewCell.xib in Resources */,
+				819F85522A70AE22008FB2F1 /* Inter-Light.ttf in Resources */,
+				819F85562A70AE22008FB2F1 /* Inter-Thin.ttf in Resources */,
+				819F85572A70AE22008FB2F1 /* Inter-Medium.ttf in Resources */,
+				819F85502A70AE22008FB2F1 /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		976428617FD427A47A7AC198 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LazaPhincon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DADE0C0D01526C720F0B8551 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LazaPhincon/Pods-LazaPhincon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LazaPhincon/Pods-LazaPhincon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LazaPhincon/Pods-LazaPhincon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		819F85272A70A8CE008FB2F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819F85682A71105F008FB2F1 /* SignInViewController.swift in Sources */,
+				819F855F2A70CEBF008FB2F1 /* SignUpViewController.swift in Sources */,
 				819F85332A70A8CE008FB2F1 /* ViewController.swift in Sources */,
+				819F85712A7124E1008FB2F1 /* TabBarController.swift in Sources */,
+				819F85AC2A756B0D008FB2F1 /* WishlistViewController.swift in Sources */,
+				819F85A62A755D67008FB2F1 /* ProfileViewController.swift in Sources */,
+				819F856A2A7118A7008FB2F1 /* HomeViewController.swift in Sources */,
+				819F85732A72164D008FB2F1 /* Network.swift in Sources */,
 				819F852F2A70A8CE008FB2F1 /* AppDelegate.swift in Sources */,
+				819F85A82A756230008FB2F1 /* NewPasswordViewController.swift in Sources */,
+				819F857A2A724F31008FB2F1 /* ProductsViewCell.swift in Sources */,
+				819F85762A7218DD008FB2F1 /* ProductsModel.swift in Sources */,
 				819F85312A70A8CE008FB2F1 /* SceneDelegate.swift in Sources */,
-				819F85392A70A8CE008FB2F1 /* LazaPhincon.xcdatamodeld in Sources */,
+				819F855B2A70B69A008FB2F1 /* GetStartedViewController.swift in Sources */,
+				819F856E2A7119AF008FB2F1 /* CategoryViewCell.swift in Sources */,
+				819F85462A70AC13008FB2F1 /* ExtensionUIView.swift in Sources */,
+				819F85AA2A756B02008FB2F1 /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +498,7 @@
 		};
 		819F85432A70A8D0008FB2F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC4978CC0EB099380452CE3 /* Pods-LazaPhincon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +527,7 @@
 		};
 		819F85442A70A8D0008FB2F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0337D27AD2CFE0A4D8EBA48B /* Pods-LazaPhincon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,19 +576,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		819F85372A70A8CE008FB2F1 /* LazaPhincon.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				819F85382A70A8CE008FB2F1 /* LazaPhincon.xcdatamodel */,
-			);
-			currentVersion = 819F85382A70A8CE008FB2F1 /* LazaPhincon.xcdatamodel */;
-			path = LazaPhincon.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 819F85232A70A8CE008FB2F1 /* Project object */;
 }

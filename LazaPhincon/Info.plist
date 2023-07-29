@@ -21,5 +21,25 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-SemiBold.ttf</string>
+		<string>Inter-Regular.ttf</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb593618286311943</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>593618286311943</string>
+	<key>FacebookClientToken</key>
+	<string>55804677885811f8245e50d089fabae2</string>
+	<key>FacebookDisplayName</key>
+	<string>LazaPhincon</string>
 </dict>
 </plist>
